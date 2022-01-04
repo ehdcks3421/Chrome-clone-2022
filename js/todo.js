@@ -43,8 +43,6 @@ function handleToDoSubmit(event) {
   saveToDos();
 }
 
-function reload() {}
-
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
 function sayHello(item) {
@@ -57,4 +55,8 @@ if (savedToDos) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
+}
+
+if (savedToDos !== null) {
+  toDoForm.classList.remove("hidden");
 }
