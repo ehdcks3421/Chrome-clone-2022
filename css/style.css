@@ -13,3 +13,75 @@ img {
   z-index: -1;
   /* opacity: 80%; */
 }
+
+.main-header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
+  height: 90vh;
+}
+
+#clock {
+  font-weight: 600;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+#login-form input:first-child,
+#todo-form input {
+  outline: none;
+  border-style: none;
+  border-bottom: 1px solid white;
+
+  height: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#login-form input:last-child {
+  border-radius: 50px;
+  font-weight: 600;
+  border-style: none;
+}
+
+#todo-form input {
+  width: 200px;
+}
+
+#todo-list button {
+  margin-left: 30px;
+  border-style: none;
+  border-radius: 50%;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#weather {
+  position: absolute;
+  top: 0;
+  right: 10;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#todo-form input {
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#login-form input:first-child::placeholder,
+#todo-form input::placeholder {
+  color: white;
+  font-weight: 600;
+}

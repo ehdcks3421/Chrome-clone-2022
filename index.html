@@ -8,21 +8,29 @@
     <title>Document</title>
   </head>
   <body>
-    <h2 id="clock">00:00</h2>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name"
-      />
-      <input type="submit" value="Log-in" />
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" required placeholder="Write a To Do and Press Enter" />
-    </form>
-    <ul id="todo-list"></ul>
+    <div class="main-header">
+      <h2 id="clock">00:00</h2>
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name"
+          style="background-color: transparent"
+        />
+        <input type="submit" value="Log-in" />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form">
+        <input
+          type="text"
+          required
+          placeholder="Write a To Do and Press Enter"
+          style="background-color: transparent"
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
 
     <div id="quote">
       <span></span>

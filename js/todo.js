@@ -43,6 +43,8 @@ function handleToDoSubmit(event) {
   saveToDos();
 }
 
+function reload() {}
+
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
 function sayHello(item) {
